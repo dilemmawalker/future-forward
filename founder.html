@@ -2,21 +2,43 @@
 <head>
 <title> Founder's page</title>
 
-
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <style>
 #rectangle{
-    width:1520px;
-    height:50px;
-    background:#00bfff;
+  
+    background:#8c5d9b	;
+	width:100%
 }
 
 #h1{
 
-font-family:sans-serif;
+font-family:"Montserrat", sans-serif;
   color:white;
   
-  color:white;
   
+}
+
+
+.fa-facebook {
+  color: white;
+  padding: 5px
+}
+
+.fa-twitter {
+  color: white;
+  padding: 5px
+}
+
+.fa-google {
+  color: white;
+  padding: 5px
+}
+
+.fa-linkedin {
+  color: white;
+  padding: 5px
 }
 
 
@@ -27,6 +49,10 @@ font-family:sans-serif;
 
 .row {
   display: flex;
+      padding-right: 21%;
+    padding-left: 19%;
+  
+   
 }
 .column{
     padding-top: 26px;
@@ -59,7 +85,7 @@ font-family:sans-serif;
     display: grid;
     padding-left: 75px;
     padding-top: 20px;
-	font-family:sans-serif;
+	font-family:"Montserrat";
   color:white;
   
 }
@@ -75,38 +101,112 @@ font-family:sans-serif;
 	}
 
 
-#grad1 {
-  height: 300px;
- 
-  background-image: url("bg.jpg");;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
 }
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.circular--landscape {
+  display: inline-block;
+margin-left: 48px;
+    margin-top: 22px;
+
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  
+  float:center;
+    margin-right:200px;
+}
+
+
 </style>
 
 
 
 <body>
 <div id="rectangle">
-<h1 id="h1" align="right"> Founders of TOE</h1>
+<h1 id="h1" align="center"> Founders of TOE</h1>
 </div>
-
-
-
-<div id="grad1">
-<div class="center" >
 <div class="row">
-  <div class="column">
-    <img class="circular--landscape"src="img2.jpeg" alt="Snow" width="500" height="600">
-	<span id="name">Bhupendra <br>TEAI Advisor</span>
-  </div>
-  <div class="column">
-    <img class="circular--landscape"src="img1.jpeg" alt="Forest" width="500" height="600">
-	 <span id="name2">    Rumit  <br>TEAI Advisor</span>
-  </div>
-  
 
+  
+<div class="card">
+  <img  class="circular--landscape" src="img2.jpeg" alt="John" >
+  <h1>Bhupendra Sir</h1>
+  <p class="title">Delhi, India</p><h3>
+Advisor – TEAI
+</h3>
+  <p>TPU Scholar researching 
+
+</p>
+  <div style="margin: 24px 0;">
+
+  </div>
+  <div ><button>
+
+
+
+<a href="#" class="fa fa-facebook" ></a>
+<a href="#" class="fa fa-twitter" ></a>
+<a href="#" class="fa fa-google" ></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+
+
+</button></p>
 </div>
 </div>
+
+<div class="card">
+  <img  class="circular--landscape" src="img1.jpeg" alt="John" >
+  <h1>Rumit Sir</h1>
+  <p class="title">Delhi, India<br></p><h3> Advisor-TEAI</h3>
+  <p>TPU Scholar researching 
+</p>
+  <div style="margin: 24px 0;">
+
+  </div>
+  <p><button><a href="#" class="fa fa-facebook" ></a>
+<a href="#" class="fa fa-twitter" ></a>
+<a href="#" class="fa fa-google" ></a>
+<a href="#" class="fa fa-linkedin"></a></button></p>
 </div>
+
+
+
 
 </body>
 </html>
