@@ -7,10 +7,10 @@
       color: white;
     }
     .outer_design{
-        margin: 50px;
+        margin: 500px;
     }
     .inner_design{
-        border-radius: 50px;
+        border-radius: 500px;
         border: 3px solid rgb(235, 225, 225);
         box-shadow: 5px 6px rgb(243, 236, 239); 
     }
@@ -30,10 +30,10 @@
         font-size: 13px;
       }
       .inner_design{
-          border-radius: 20px;
+          border-radius: 200px;
       }
       .img-style{
-        border-radius: 50%;
+        border-radius: 5%;
         height: 150px;
         width: 150px;
     }
@@ -56,4 +56,5 @@
       margin-top: 20px;
       margin-bottom: 10px;
   }
+
 
