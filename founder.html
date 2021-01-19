@@ -5,13 +5,16 @@
 
 <style>
 #rectangle{
-    width:1500px;
+    width:1520px;
     height:50px;
     background:#00bfff;
 }
 
 #h1{
-  font-family:Lucida, sans-serif;
+
+font-family:sans-serif;
+  color:white;
+  
   color:white;
   
 }
@@ -25,6 +28,9 @@
 .row {
   display: flex;
 }
+.column{
+    padding-top: 26px;
+	}
 
 .center {
   display: block;
@@ -34,12 +40,6 @@
 }
 
 
-p.menusomething{background: white;
-   margin: auto;
-   margin-top: 200px;
-   margin-left: 10px;
-   padding: 10px;
-   width: 200px;}
 
 .circular--landscape {
   display: inline-block;
@@ -48,9 +48,40 @@ p.menusomething{background: white;
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
+  
+  float:left;
+    margin-right:200px;
 }
 
+ #name
+ {
+     
+    display: grid;
+    padding-left: 75px;
+    padding-top: 20px;
+	font-family:sans-serif;
+  color:white;
+  
+}
+
+#name2
+{
+    display: grid;
+    padding-left: 58px;
+    padding-top: 20px;
+	font-family:sans-serif;
+  color:white;
+  
+	}
+
+
+#grad1 {
+  height: 300px;
+ 
+  background-image: url("bg.jpg");;
+}
 </style>
+
 
 
 <body>
@@ -58,17 +89,25 @@ p.menusomething{background: white;
 <h1 id="h1" align="right"> Founders of TOE</h1>
 </div>
 
-<div class="center" class="p.menusomething" >
+
+
+<div id="grad1">
+<div class="center" >
 <div class="row">
   <div class="column">
-    <img class="circular--landscape"src="img.jpeg" alt="Snow" width="500" height="600">
+    <img class="circular--landscape"src="img2.jpeg" alt="Snow" width="500" height="600">
+	<span id="name">Bhupendra <br>TEAI Advisor</span>
   </div>
   <div class="column">
     <img class="circular--landscape"src="img1.jpeg" alt="Forest" width="500" height="600">
+	 <span id="name2">    Rumit  <br>TEAI Advisor</span>
   </div>
-  </div>
+  
 
 </div>
+</div>
+</div>
+
 </body>
 </html>
 
