@@ -78,14 +78,7 @@
   }
   }
 
-  /* Intro css */
-  .container-bg{
-    background-color: #add8e6;
-   
-}
-  
-
-  
+/* Intro css */ 
 /* Float four columns side by side */
 .introcolumn {
     float: center;
@@ -337,7 +330,7 @@ margin-left: 48px;
   }
   
 
-  .card {
+  .card-team {
     position: relative;
     display: flex;
     flex-direction: row;
